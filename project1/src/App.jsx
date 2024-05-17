@@ -1,13 +1,20 @@
-
-import './App.css'
+import Exercise from "./components/HomeExercise"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Exercises from "./components/Exercises"
+import {Outlet} from 'react-router-dom'
 
 function App() {
-
-
   return (
-    <>
-      <h1>hello</h1>
-    </>
+   <>
+    <Header />
+    {/* <Hero /> */}
+    <Outlet />
+    {/* <Exercises /> */}
+    <Footer />
+    
+   </>
   )
 }
 
