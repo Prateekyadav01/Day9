@@ -7,6 +7,7 @@ import Loader from "./Loader";
 const Exercises = () => {
     const [exerciseResult, setExerciseResult] = useState([]);
     // const [loading, setLoader] = useState(false);
+    // hello
 
     const fetchData = async () => {
         const url = "https://exercisedb.p.rapidapi.com/exercises?";
